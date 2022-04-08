@@ -142,41 +142,6 @@ h2{
     height: 6rem;   
 }
 
-.colomne{
-    display: flex;
-    justify-content:space-between;
-}
-
-.block{
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.colomne2{
-    display: flex;
-    justify-content: space-around;
-}
-
-.colomne3{
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-    margin-left: 2rem;
-    margin-right: 2rem;
-
-}
-
-.colomne4{
-    display: flex;
-    flex-direction: row;
-}
-
-.block2{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 
 
