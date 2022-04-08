@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     font-weight: 300;
     border-collapse: collapse;
 }
@@ -21,7 +21,7 @@ p{
 header{
     color: gray;
     font-size: 1rem;
-    padding: 4rem;
+    padding: 3rem;
     text-align: center;
     border-bottom: 1px solid gray;
     margin-left: 2rem;
@@ -30,9 +30,10 @@ header{
 
 img{
     display: flex;
-    align-items: center;
+    justify-content: center;
     height: auto;
     width: auto;
+    margin: 0 auto 0 auto;
 }
 
 main{
@@ -42,6 +43,11 @@ main{
 
 h3{
     font-size: 0.9rem;
+}
+
+h2{
+    padding: 1rem;
+    margin-left: -1rem;
 }
 
 
@@ -78,7 +84,7 @@ h3{
     justify-content: flex-end;
     background-color: #0f4c82 ;
     color: white;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     width: 25%;
     height: 6rem;
@@ -91,7 +97,7 @@ h3{
     justify-content: flex-end;
     color:white;
     background-color: #fe6f61;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     width: 25%;
     height: 6rem;
@@ -104,7 +110,7 @@ h3{
     justify-content: flex-end;
     color:white;
     background-color: #604b8c;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     width: 25%;
     height: 6rem;   
@@ -117,7 +123,7 @@ h3{
     justify-content: flex-end;
     color:white;
     background-color:#88b14b;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     width: 25%;
     height: 6rem; 
@@ -126,16 +132,51 @@ h3{
 .seize{
     display: flex;
     padding: 2rem;
-    flex-direction: row;
     align-items:flex-end;
     justify-content: flex-end;
     color:white;
-    background: linear-gradient(90deg,#93a9d2  50%, #f6cac9  50%); ;
-    font-size: 4rem;
+    background: linear-gradient(90deg,#93a9d2  50%, #f6cac9  50%);
+    font-size: 3.5rem;
     font-weight: 500;
     width: 25%;
     height: 6rem;   
 }
+
+.colomne{
+    display: flex;
+    justify-content:space-between;
+}
+
+.block{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.colomne2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colomne3{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.colomne4{
+    display: flex;
+    flex-direction: row;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
