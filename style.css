@@ -1,0 +1,141 @@
+/*  */
+/* Général */
+/*  */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    font-weight: 300;
+    border-collapse: collapse;
+}
+
+article{
+    text-align: justify;
+}
+
+p{
+    color:gray;
+    font-size: 0.8rem;
+}
+
+header{
+    color: gray;
+    font-size: 1rem;
+    padding: 4rem;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+main{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+
+/*  */
+/* couleurs texte */
+/*  */
+
+.cyan{
+    background-color: cyan;
+}
+
+.mangenta{
+    background-color: magenta;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.noir{
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+/*  */
+/* carrés de la mort */
+/*  */
+
+.vingt{
+    padding: 2rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    background-color: #0f4c82 ;
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 25%;
+    height: 6rem;
+}
+
+.dixneuf{
+    padding: 2rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    color:white;
+    background-color: #fe6f61;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 25%;
+    height: 6rem;
+}
+
+.dixhuit{
+    padding: 2rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    color:white;
+    background-color: #604b8c;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 25%;
+    height: 6rem;   
+}
+
+.dixsept{
+    padding: 2rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    color:white;
+    background-color:#88b14b;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 25%;
+    height: 6rem; 
+}
+
+.seize{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-end;
+    color:white;
+    background: linear-gradient(90deg,#93a9d2  50%, #f6cac9  50%); ;
+    font-size: 4rem;
+    font-weight: 500;
+    width: 25%;
+    height: 6rem;   
+}
+
+
+
